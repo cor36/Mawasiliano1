@@ -368,7 +368,7 @@ opacity: 1;
 }
 
 .footer-cont {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #2b2a2a;
   padding-top: 15px;
   display: flex;
   justify-content: space-between;  
@@ -395,7 +395,7 @@ opacity: 1;
   height: 35px;
   border-radius: 50%;
   background: #444;
-  color: #fff;
+  color: #111111;
   font-size: 16px;
   transition: background 0.3s, transform 0.3s;
 }
@@ -573,13 +573,13 @@ opacity: 1;
   height: 35px;
   border-radius: 50%;
   background: #f4f1f1;
-  color: #fff;
+  color: #383838;
   font-size: 16px;
   transition: background 0.3s, transform 0.3s;
 }
 
 .socials a:hover {
-  background: #f8f6f6;
+  background: #646262;
   transform: scale(1.1);
 }
        
