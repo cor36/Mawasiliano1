@@ -616,7 +616,7 @@ opacity: 1;
 
 
 
-/* ============= GLOBAL FIXES ============= */
+/*  GLOBAL FIXES  */
 
 /* Prevent horizontal scroll */
 body {
@@ -635,7 +635,7 @@ h1, h2, h3 {
   word-wrap: break-word;
 }
 
-/* ============= NAVBAR ============= */
+/*  NAVBAR   */
 @media (max-width: 768px) {
   .navbar .container {
     flex-direction: column;
@@ -653,7 +653,7 @@ h1, h2, h3 {
   }
 }
 
-/* ============= HERO / SECTION 1 ============= */
+/*  SECTION 1  */
 .section1 {
   padding: 40px 15px;
   text-align: center;
@@ -671,7 +671,7 @@ h1, h2, h3 {
   display: inline-block;
 }
 
-/* ============= SECTION 2 (Mission/Vision) ============= */
+/* SECTION 2  */
 .section2 .mivi {
   flex-wrap: wrap;
   justify-content: center;
@@ -684,13 +684,13 @@ h1, h2, h3 {
 
 .mission .mi,
 .vision .mi {
-  width: auto; /* remove fixed width */
+  width: auto; 
   text-align: center;
 }
 
-/* ============= SECTION 3 (What we do cards) ============= */
+/* SECTION 3  */
 .section3 .container {
-  grid-template-columns: 1fr; /* single column on small devices */
+  grid-template-columns: 1fr;
 }
 
 @media (min-width: 600px) {
@@ -705,7 +705,7 @@ h1, h2, h3 {
   }
 }
 
-/* ============= SECTION 5 (Footer tiles) ============= */
+/* SECTION 5 */
 .section5 .tile {
   grid-template-columns: 1fr; /* stack on small screens */
   gap: 20px;
@@ -733,8 +733,6 @@ h1, h2, h3 {
 
 
 /* About */
-
-/* ============= ABOUT PAGE ============= */
 
 /* Section 1 (Hero Image) */
 .sectiona1 .container {
@@ -895,7 +893,7 @@ h1, h2, h3 {
   transform: scale(1.2);
 }
 
-/* ============= RESPONSIVE FIXES ============= */
+/* RESPONSIVE FIXES */
 
 /* Tablets */
 @media (max-width: 900px) {
