@@ -83,7 +83,7 @@ img {
 ;
   font-size: large;
   padding: 20px;
-  line-height: 2.9;
+  line-height: 2.2;
   width: 1196;
   height: 240;
   top: 332px;
@@ -112,7 +112,7 @@ opacity: 1;
 .section1 .btn{
   position: absolute;
  
-  left: 50%;
+  /* left: 50%; */
 }
 
  
@@ -348,10 +348,10 @@ opacity: 1;
   color: #336699;
 }
  
-.container {
+/* .container {
  
 
-}
+} */
 
 .section5 .tile{
   display: grid;
@@ -411,10 +411,10 @@ opacity: 1;
 
 /* About */
 /* Sectiona2 */
-.sectiona2{
+/* .sectiona2{
   
 
-}
+} */
 
 .sectiona2 .container{
   text-align: center;
@@ -526,10 +526,10 @@ opacity: 1;
   color:#FFFFFF;
 }
  
-.container {
+/* .container {
  
 
-}
+} */
 
 .section15 .tilea{
   display: grid;
