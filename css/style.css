@@ -17,9 +17,9 @@ body {
 
 a {
   text-decoration: none;
-  color:#6D8196;
+  /* color:#6D8196; */
   /* color:#708090; */
-  /* color: #800020; */
+  color: #800020;
 }
 
 ul {
