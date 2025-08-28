@@ -19,7 +19,8 @@ a {
   text-decoration: none;
   /* color:#6D8196; */
   /* color:#708090; */
-  color: #800020;
+  /* color: #800020; */
+  color: #ffffff;
 }
 
 ul {
@@ -33,7 +34,8 @@ img {
 
 /* Navbar */
 .navbar {
-  background-color:  #418ed5;
+  background-color:  #800020;
+  /* background-color:  #418ed5; */
   padding: 1rem 2rem;
   /* display: flex; */
   justify-content: space-between;
