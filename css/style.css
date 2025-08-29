@@ -78,10 +78,10 @@ img {
 /* Section1 */
 .section1{
   background: 
-    /* linear-gradient(
-      rgba(6D, 81, 96, 0.6),   
-      rgba(6D, 81, 96, 0.6)
-    ), */
+    linear-gradient(
+      rgba(128, 128, 128, 0.6),   
+      rgba(128, 128, 128, 0.6)
+    ),
     url("../Assets/HomePage/Hero.jpeg") center/cover no-repeat;
   color:#0c0c0c;
   /* background: 
