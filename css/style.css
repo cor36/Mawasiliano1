@@ -77,48 +77,64 @@ img {
 
 /* Section1 */
 .section1{
-  background: 
+  /* background: 
     linear-gradient(
       rgba(128, 128, 128, 0.6),   
       rgba(128, 128, 128, 0.6)
     ),
     url("../Assets/HomePage/Hero.jpeg") center/cover no-repeat;
-  color:#0c0c0c;
-  /* background: 
+  color:#0c0c0c; */
+  background: 
     linear-gradient(
       rgba(0, 91, 150, 0.6),   
       rgba(0, 91, 150, 0.6)
     ),
     url("../Assets/HomePage/Hero.jpeg") center/cover no-repeat;
   color:#FFFFFF;
-; */
   font-size: large;
-  padding: 20px;
+  /* padding: 20px; */
   line-height: 2.2;
   width: 1196;
   height: 240;
   top: 332px;
   left: 122px;
+  text-align: left;
  
 opacity: 1;
 
 }
 
+
 .section1 .h1{
   width: 708;
+  
   height: 94;
   top: 188px;
   left: 366px;
   opacity: 1;
   font-weight: 600;
   font-style: semi-bold;
-  color: #0d0d0d;
-  line-height: 5.0;
-  text-align: center;
+  color: #ffffff;
+  line-height: 4.0;
+  text-align: left;
   /* align-items: center; */
   /* padding-top: 30px; */
+  
  
 }
+
+/* .section1 .p1{
+    width: 708px;       
+  height: 94px;         
+  position: absolute;   
+  top: 188px;           
+  left: 366px;          
+  opacity: 1;           
+  font-weight: 600;     
+  color: #ffffff;       
+  line-height: 4.0;     
+  text-align: left; 
+} */
 
 .section1 .btn{
   position: absolute;
@@ -198,9 +214,9 @@ opacity: 1;
   opacity: 1;
   font-family: 'Montserrat';
   color: rgb(251, 250, 250);
-  font-weight: 900;
+  font-weight: 500;
   font-style: Regular;
-  font-size: 34px;
+  font-size: 24px;
   line-height: 104px;
   letter-spacing: 0%;
   text-align: center;
@@ -243,12 +259,13 @@ opacity: 1;
 }
 
 .section3 .card p{
-  border-bottom: #ffffff 1px solid;
-  margin:15px;
+  /* border-bottom: #ffffff 1px solid; */
+  border-top: #ffffff 1px solid;
+  margin:10px;
 }
 
 .section3 .card h3{
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 
