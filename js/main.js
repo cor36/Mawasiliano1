@@ -10,3 +10,6 @@
 function toggleCard(card) {
   card.classList.toggle("show");
 }
+function toggleCard(card1) {
+  card1.classList.toggle("show");
+}

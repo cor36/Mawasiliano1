@@ -678,6 +678,9 @@ opacity: 1;
 
 
 
+
+
+
 /*  GLOBAL FIXES  */
 
 /* Prevent horizontal scroll */
@@ -828,9 +831,16 @@ h1, h2, h3 {
 .sectiona2 p {
   font-size: 1rem;
   line-height: 1.7;
-  color: #444;
+  /* color: #444; */
   max-width: 900px;
   margin: 0 auto;
+}
+
+.program{
+  font-size: 1rem;
+}
+.program .h3{
+  margin-left: 10px;
 }
 
 /* Section 3 (Program Cards) */
