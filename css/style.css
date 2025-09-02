@@ -503,15 +503,16 @@ opacity: 1;
 
 /* Sectiona3 */
  
-.sectiona3 .container1 {
+/* .sectiona3 .container1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);  
   gap: 30px;
   /* max-width: 1100px; */
   /* margin: 0 auto; */
-  margin-left: 0;
-  /* padding: 40px 20px; */
-}
+  /* margin-left: 0; */
+  /* padding: 40px 20px; 
+  background-color: #708090;
+} */
 
 .sectiona3 .head h2{
   text-align: center;
@@ -527,15 +528,15 @@ opacity: 1;
   /* padding-bottom: 10px; */
 }
  
-.sectiona3 .container1 .card1 {
+/* .sectiona3 .container1 .card1 {
   background: #fff;
-  /* border: 1px solid; */
+  /* border: 1px solid; 
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   padding: 25px 30px;
-  border-left: 8px solid transparent; /* base for gradient */
+  border-left: 8px solid transparent; /* base for gradient 
   position: relative;
-}
+} */
 
  
 .card1 {
@@ -835,7 +836,7 @@ h1, h2, h3 {
 /* Section 3 (Program Cards) */
 .sectiona3 {
   padding: 60px 20px;
-  background: #fff;
+  background: #708090;
 }
 
 .sectiona3 .head {
@@ -852,13 +853,13 @@ h1, h2, h3 {
 .sectiona3 .head h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  color: #666;
+  color: #000000;
 }
 
 .sectiona3 .container1 {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 25px; */
 }
 
 .card1 {
@@ -959,7 +960,8 @@ h1, h2, h3 {
 /* Tablets */
 @media (max-width: 900px) {
   .sectiona3 .container1 {
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    background-color: #708090;
   }
 
   .section15 .tilea {
@@ -979,7 +981,7 @@ h1, h2, h3 {
   }
 
   .sectiona3 .container1 {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
   }
 
   .section15 .tilea {
