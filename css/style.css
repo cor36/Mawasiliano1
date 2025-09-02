@@ -666,6 +666,14 @@ opacity: 1;
   transform: scale(1.05);      
 }
 
+.card p {
+  display: none; /* Hide paragraph initially */
+}
+
+.card.show p {
+  display: block; /* Show paragraph when card has 'show' class */
+}
+
 
 
 

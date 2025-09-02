@@ -5,3 +5,8 @@
 //to show that there is a js file linked to the html files
  
 //The php one shall do just fine for form handling
+
+
+function toggleCard(card) {
+  card.classList.toggle("show");
+}
