@@ -240,6 +240,22 @@ opacity: 1;
   text-transform: capitalize;
 
 }
+.program .wwd{
+  width: 226;
+  height: 65;
+  padding: 16px;
+  left: 607px;
+  font-family: 'Montserrat';
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 104px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+
+}
 
 .section3 .container{
   display: grid;
@@ -852,9 +868,11 @@ h1, h2, h3 {
 }
 
 .sectiona2 p {
-  font-size: 1rem;
-  line-height: 1.7;
+  /* font-size: 1rem;
+  line-height: 1.7; */
   /* color: #444; */
+    line-height: 1.5;
+  font-size: large;
   max-width: 900px;
   margin: 0 auto;
 }
