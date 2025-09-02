@@ -223,6 +223,22 @@ opacity: 1;
   text-transform: capitalize;
 
 }
+.program .sh2{
+  width: 226;
+  height: 65;
+  padding: 16px;
+  left: 607px;
+  font-family: 'Montserrat';
+  color: rgb(251, 250, 250);
+  font-weight: 500;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 104px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+
+}
 
 .section3 .container{
   display: grid;
