@@ -117,8 +117,8 @@ opacity: 1;
   font-style: semi-bold;
   color:#111212;
   line-height: 3.0;
-  text-align: left;
-  /* align-items: center; */
+  /* text-align: left; */
+  align-items: center;
   /* padding-top: 30px; */
   
  
@@ -247,7 +247,7 @@ opacity: 1;
 }
  
 .section3 .card img {
-  width: 90%;
+  width: 50%;
   height: 200px;
   margin: 15px auto 0;  
   display: block;    
@@ -837,10 +837,22 @@ h1, h2, h3 {
 }
 
 .program{
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  line-height: 1.5;
+  font-size: large;
 }
 .program .h3{
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  width: 708;
+  height: 94;
+  top: 188px;
+  left: 366px;
+  opacity: 1;
+  font-weight: 600;
+  font-style: semi-bold;
+  color:#111212;
+  line-height: 3.0;
+  text-align: center;
 }
 
 /* Section 3 (Program Cards) */
