@@ -93,6 +93,7 @@ img {
   /* color:#121111; */
   color:#030303;
   font-size: large;
+  background-color: #c4c1c1;
   /* padding: 20px; */
   line-height: 1.5;
   width: 1196;
@@ -444,6 +445,7 @@ opacity: 1;
   margin-left: 0;
   padding-left: 0;
   text-align: left;
+  background-color: #c4c1c1 !important;
 
 
 }
@@ -455,8 +457,9 @@ opacity: 1;
   max-width: 100% !important;
   max-width: 100%;        /* let it expand fully */
   margin-left: 0;         /* remove extra centering */
-  padding-left: 40px;     /* adjust this value for how far from the edge */
+  padding-left: 60px;     /* adjust this value for how far from the edge */
   text-align: left;
+  background-color: #c4c1c1;
 } 
 
 .sectiona2 .container p {
