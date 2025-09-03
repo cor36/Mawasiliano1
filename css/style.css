@@ -416,24 +416,44 @@ opacity: 1;
   font-family: Arial, sans-serif;
   color: #363434;
 }
- 
-/* .container {
- 
-
-} */
-
-.section5 .tile{
+.section5 .container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for top row */
   gap: 40px;
-  margin-bottom: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
- 
-.section5 .tiles h3{
-  color:#000000;
-  font-size: 20px;
+
+/* Force Services and Contact Us onto the second row */
+.section5 .tiles:nth-child(4) {
+  grid-column: 1 / span 2; /* Services spans across 2 columns */
+}
+
+.section5 .tiles:nth-child(5) {
+  grid-column: 3; /* Contact Us sits in the 3rd column of row 2 */
+}
+
+.section5 .tiles h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
   font-weight: bold;
-  margin-bottom: 15px;
+}
+
+.section5 .tiles h4 {
+  margin: 6px 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* Mobile responsive: stack all */
+@media (max-width: 768px) {
+  .section5 .container {
+    grid-template-columns: 1fr;
+  }
+  .section5 .tiles:nth-child(4),
+  .section5 .tiles:nth-child(5) {
+    grid-column: auto;
+  }
 }
 
 .footer-cont {
