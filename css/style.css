@@ -250,7 +250,7 @@ opacity: 1;
   font-weight: 500;
   font-style: Regular;
   font-size: 20px;
-  line-height: 104px;
+  /* line-height: 104px; */
   letter-spacing: 0%;
   text-align: center;
   text-transform: capitalize;
@@ -547,7 +547,7 @@ opacity: 1;
   font-weight: 300;
 
   font-style: italic;
-  font-size: 34px;
+  font-size: 24px;
   color:#800020;
   line-height: 42px;
   letter-spacing: 0%;
