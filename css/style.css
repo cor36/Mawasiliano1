@@ -242,7 +242,7 @@ opacity: 1;
 }
 .program .wwd{
   width: 226;
-  height: 65;
+  height: 45;
   padding: 16px;
   left: 607px;
   font-family: 'Montserrat';
@@ -522,10 +522,11 @@ opacity: 1;
 } 
 
 .sectiona2 .container p {
-  margin-left: 0;
-  padding-left: 0;
+  margin-left: 20px;
+  padding-left: 20;
   text-align: left;
   max-width: 100%; 
+  font-style: italic;
 }
 
 .sectiona2 .container h2{
