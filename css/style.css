@@ -688,7 +688,7 @@ opacity: 1;
 /* Vertical dividers only for top row */
 .section5 .tiles:nth-child(1),
 .section5 .tiles:nth-child(2) {
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   padding-right: 20px;
 }
 
