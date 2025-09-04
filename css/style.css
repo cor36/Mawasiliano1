@@ -738,34 +738,63 @@ opacity: 1;
 }
 
 /* Socials container */
+/* Socials container: logo left, icons right */
 .section5 .socials {
   display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* align vertically */
-  flex-wrap: wrap;           /* allow wrapping on small screens */
-  gap: 15px;                 /* spacing between icons */
-  margin-top: 15px;
+  justify-content: space-between; /* logo left, icons right */
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+  width: 100%;
 }
 
-/* Social icons */
-.section5 .socials a {
+/* Logo styling */
+.section5 .social-logo {
+  width: 120px;   /* adjust as needed */
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.section5 .social-logo:hover {
+  transform: scale(1.05); /* slight zoom effect */
+  opacity: 0.9; /* subtle fade */
+}
+
+/* Social icons container */
+.section5 .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.section5 .social-icons a {
   color: #ffffff; /* white default */
   font-size: 20px;
   transition: color 0.3s ease;
   text-decoration: none;
 }
 
-.section5 .socials a:hover {
-  color: #708090; /* slate gray on hover */
+.section5 .social-icons a:hover {
+  color: #708090; /* slate gray hover */
 }
 
-/* On mobile: make sure icons stay inside */
+/* Mobile layout: stack logo on top, icons below */
 @media (max-width: 768px) {
   .section5 .socials {
-    justify-content: center; /* force center */
-    gap: 12px; /* tighter spacing */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section5 .social-logo {
+    margin-bottom: 15px;
+  }
+
+  .section5 .social-icons {
+    justify-content: center;
   }
 }
+
 
 /* Utils */
 .container {
